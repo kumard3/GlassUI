@@ -1,0 +1,23 @@
+.home{
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  width: 80vw;
+  height: 90vh;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  border-radius: 2rem;
+  backdrop-filter: blur(2rem);
+  -webkit-box-pack: center;
+  justify-content: center;
+  transition: all 850ms ease 0s;
+}
+@media (max-width:760px){
+    .home{
+        width: 100vw;
+        left: 0;
+        height: 100vh;
+        top: 0;
+        border-radius: 0;
+    }
+
+}

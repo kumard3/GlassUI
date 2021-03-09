@@ -1,0 +1,14 @@
+.sidebar{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    width: 10rem;
+    height: 90vh;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.879));
+    border-radius: 2rem;
+    backdrop-filter: blur(2rem);
+    -webkit-box-pack: center;
+    justify-content: center;
+   transition: all 850ms ease 0s; 
+
+}
