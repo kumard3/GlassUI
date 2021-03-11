@@ -1,9 +1,16 @@
 import React from 'react'
+import About from './About'
+
 import '../styles/Instructor.css'
-function Instructors() {
+import InstructorCard from '../InstructorCard'
+
+function Instructors(props) {
     return (
-        <div>
-            
+        <div className="instructor">
+            <div className="instructor__main">
+                <About />
+                <InstructorCard/>
+            </div>
         </div>
     )
 }

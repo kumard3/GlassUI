@@ -10,5 +10,49 @@
     -webkit-box-pack: center;
     justify-content: center;
    transition: all 850ms ease 0s; 
-
+   z-index: 1;
+    text-align: center;
+}
+.sidebar__main{
+    height: 60vh;
+    padding-top: 10rem;
+    
+}
+@media (max-width:760px){
+    .sidebar{
+        width: 6.5rem;
+    }
+    .sidebar__main{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10rem;
+       
+    }
+    .h3{
+        display: none;
+    }
+    .home__image{
+        width: 50px;
+        padding-bottom: 20px;
+   
+    }
+    .youtube__image{
+        width: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .about__image{
+        width: 50px;
+        padding-top: 20px;
+    }
+}
+.home__image{
+    width: 50px;
+    
+}
+.youtube__image{
+    width: 50px;
+}
+.about__image{
+    width: 50px;
 }

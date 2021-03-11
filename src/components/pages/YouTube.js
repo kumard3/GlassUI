@@ -5,6 +5,7 @@ function YouTube() {
         <div className="youtube">
             <div className="youtube__background">
                 <div className="youtube__main">
+                <h1 className="youtube__title">Youtube Videos</h1>
                     <div className="youtube__card">
                         <iframe className="youtube__iframe" src="https://www.youtube.com/embed/AUFH3c7qstk?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <iframe className="youtube__iframe" src="https://www.youtube.com/embed/akUqRLsmJwc?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

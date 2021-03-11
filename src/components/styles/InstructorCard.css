@@ -1,0 +1,8 @@
+.instructor__card{
+    min-width: 60vw;
+    height: 67vh;
+    padding-left: 9rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
