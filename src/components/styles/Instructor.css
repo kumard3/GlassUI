@@ -24,37 +24,6 @@
     .instructor__main::-webkit-scrollbar{
         display: none;
     }
-/* 
-    @media(min-width:1200px){
-
-    .instructor__card{
-        position: relative;
-        top: 30vh;
-      overflow: scroll;
-      max-height: 60vh ;
-      right: 40rem;
-      max-width: 70vw;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      
-    }
-
-  }
-@media(max-width:888px){
-    .instructor__card{
-        position: relative;
-        top: 30vh;
-      overflow: scroll;
-      max-height: 60vh ;
-      max-width: 60vw;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      
-    }
-} */
-
 @media (max-width:760px){
     .instructor{
         width: 100vw;
@@ -63,7 +32,6 @@
         top: 0;
         border-radius: 0;
     }
-
   
 
 }

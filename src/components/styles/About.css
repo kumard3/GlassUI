@@ -5,9 +5,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left:20vw;
+    margin-left:25vw;
     justify-content: center;
-
+    text-align: center;
 
   }
 .about__h1{
@@ -18,12 +18,35 @@
 }
 @media (max-width:760px){
     .about{  
-        padding-left: 4rem;  
+    padding-top: 10px;
+    }
+    .about__main{
+        float: right;
+        width: 69vw;
+        padding-right: 10vw;
+        margin-left: 0  !important;
     }
     .about__h1{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .about__h2{
+        font-size: .9rem;
+    }
+    .about__footer__h1{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width:220px) and  (max-width:400px){
+    .about__main{
+        width: 63vw;
+    }
+    .about__h1{
+        font-size: 1.345rem;
+    }
+    .about__footer__h1{
         font-size: 1rem;
+    }
+    .about__h2{
+        font-size: .6rem;
     }
 }

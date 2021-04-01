@@ -11,6 +11,7 @@
   justify-content: center;
   transition: all 850ms ease 0s;
 }
+
 @media (max-width:760px){
     .home{
         width: 100vw;
@@ -20,20 +21,23 @@
         border-radius: 0;
     }
     .htext{
-
       font-size:1rem  !important;
-      width:75vw  !important;
+      width:100vw  !important;
+      height:90vh  !important;
       padding-top:5rem  !important;
-      padding-left: 11rem  !important;
+      padding-left: 9.7rem  !important;
+      overflow: scroll;
     }
-
+  .home__main{
+float: right;
+padding-right: 5vw;
+}    
 }
 .htext{
-  text-align: center;
   font-size:1.2rem;
-  height:75vh;
-  width:70vw;
+  height:80vh;
+  width:75vw;
   padding-top:4rem;
-  padding-left: 15rem;
+  padding-left: 12rem;
 
 }

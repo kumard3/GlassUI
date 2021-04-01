@@ -1,8 +1,34 @@
-.instructor__card{
-    min-width: 60vw;
-    height: 67vh;
-    padding-left: 9rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+@media (min-width:760px) {
+    .instructor__card{
+        min-width: 60vw;
+        height: 65.6vh;
+        padding-left: 10rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }   
+}
+@media (max-width:760px){
+    .instructor__card{
+        float: right;
+        padding-right: 13.5rem;
+        height: 67vh;
+    width: 60vw ;
+    }
+}
+@media (min-width:200px) and (max-width:360px){
+    .instructor__card{
+        float: right;
+        padding-right: 12.5rem;
+        height: 67vh;
+    width: 60vw ;
+    }
+}
+@media (min-width:360px) and (max-width:400px){
+    .instructor__card{
+        float: right;
+        padding-right: 15.5rem;
+        height: 67vh;
+    width: 60vw ;
+    }
 }

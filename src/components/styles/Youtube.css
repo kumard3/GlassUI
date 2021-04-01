@@ -24,11 +24,14 @@
           height: 93vh !important;
       }
       .youtube__title{
-        text-align: center;
+           text-align: center;
         padding-left: 8rem;
-    
     }
-    
+    .youtube__card{
+        
+        float: right;
+        padding-left: 26vw  !important;
+    }    
   
   }
 

@@ -1,5 +1,4 @@
 .card{
-
 background: linear-gradient(
     to left top,
     rgba(255, 255, 255, 0.8),
@@ -20,4 +19,23 @@ background: linear-gradient(
 }
 .card__main{
   padding-left: 10px;
+}
+@media (min-width:200px) and (max-width:340px){
+  .card{
+
+      width: 160px;
+        height: 130px;
+    }
+    .card__h1{
+        font-size: .9rem;
+        padding: 5px;
+    }
+    .card__h2{
+        font-size: .8rem;
+        padding-bottom: 7px;
+    }
+    .card__main{
+      padding-left: 8px;
+    }
+
 }
